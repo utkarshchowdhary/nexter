@@ -1,0 +1,78 @@
+%heading {
+  font-weight: 400;
+}
+
+.heading-1 {
+  @extend %heading;
+  font-size: 4.5rem;
+  line-height: 1;
+  color: $white-smoke;
+}
+
+.heading-2 {
+  @extend %heading;
+  font-size: 4rem;
+  line-height: 1;
+  font-style: italic;
+
+  &--light {
+    color: $white-smoke;
+  }
+
+  &--dark {
+    color: $dark-brown;
+  }
+}
+
+.heading-3 {
+  @extend %heading;
+  font-size: 1.6rem;
+  color: $tortilla;
+  text-transform: uppercase;
+}
+
+.heading-4 {
+  @extend %heading;
+  font-size: 1.9rem;
+  line-height: 1;
+
+  &--light {
+    color: $white-smoke;
+  }
+
+  &--dark {
+    color: $dark-brown;
+  }
+}
+
+.btn {
+  background-color: $tortilla;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1.8rem 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $dark-tortilla;
+  }
+}
+
+.mb-sm {
+  margin-bottom: 2rem;
+}
+
+.mb-md {
+  margin-bottom: 4rem;
+}
+
+.mb-lg {
+  margin-bottom: 6rem;
+}
+
+.mb-hg {
+  margin-bottom: 8rem;
+}

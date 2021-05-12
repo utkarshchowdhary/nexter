@@ -1,0 +1,25 @@
+.features {
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 6rem;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 1.5rem;
+
+  &__icon {
+    height: 4.5rem;
+    width: 4.5rem;
+    fill: $tortilla;
+    grid-row: 1 / -1;
+  }
+
+  &__text {
+    font-size: 1.7rem;
+  }
+}
