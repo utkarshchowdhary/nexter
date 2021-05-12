@@ -7,11 +7,10 @@
     url(/img/hero.jpeg);
   background-size: cover;
   background-position: center;
-  padding: 8rem;
-  padding-top: 4rem;
+  padding: 4rem 8rem 8rem 8rem;
   display: grid;
   grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
-  grid-template-columns: minmax(min-content, max-content);
+  grid-template-columns: 1fr;
   row-gap: 1.5rem;
   justify-content: center;
 
